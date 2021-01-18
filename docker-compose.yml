@@ -25,9 +25,6 @@ services:
     image: mongo
     networks:
       - app-network
-  mongo:
-    image: mongo
-    restart: always
 
   mongo-express:
     image: mongo-express
