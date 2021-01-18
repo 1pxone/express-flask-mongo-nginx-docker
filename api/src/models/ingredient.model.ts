@@ -6,7 +6,6 @@ const ingredientSchema = new mongoose.Schema({
         type: String,
         default: () => uuidv4().replace(/\-/g, ''),
     },
-
     type: {
         type: String,
         enum: ['sauce', 'bun', 'main'],
